@@ -12,6 +12,7 @@ export default [
     },
     location: "Online",
     openSpots: 0,
+    country: "USA",
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ export default [
     },
     location: "Online",
     openSpots: 27,
+    country: "USA",
   },
   {
     id: 3,
@@ -40,5 +42,6 @@ export default [
     },
     location: "Norway",
     openSpots: 3,
+    country: "USA",
   },
 ];

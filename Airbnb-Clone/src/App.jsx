@@ -4,17 +4,10 @@ import Hero from './components/Hero.jsx'
 import Card from './components/Card.jsx'
 import data from "./data.js"
 
-const Cards = data.map(card => {
+const Cards = data.map(item => {
   return (<Card 
-    key = {card.id}
-    mainImg = {card.coverImg}
-    rating = {card.stats.rating}
-    reviewCount = {card.stats.reviewCount}
-    country = {card.location}
-    title = {card.title}
-    price = {card.price} 
-    openSpots = {card.openSpots} 
-    location = {card.location}
+    key = {item.id}
+    item = {item}
   />)
 })
 
