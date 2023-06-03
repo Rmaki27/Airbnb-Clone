@@ -4,12 +4,12 @@
 export default function Card(props) {
     return (
     <div className="card">
-        <img src={props.mainImg} className="card--image" alt="katie zaferes card" />
+        <img src={props.mainImg} className="card--image" alt="profile image" />
         <div className="card--stats">
-            <img src={props.starImg} className="card--star" alt="star icon" />
-            <p>{props.rating} <span className="gray">({props.reviewCount}) •</span> <span className="gray">USA</span> </p>
+            <img src="../images/star.png" className="card--star" alt="star icon" />
+            <p>{props.rating} <span className="gray">({props.reviewCount}) •</span> <span className="gray">{props.country}</span> </p>
         </div>
-        <p>{props.bio}</p>
+        <p>{props.title}</p>
         <p><span className="bold">From ${props.price}</span> / person</p>
     </div>
     )
