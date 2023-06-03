@@ -3,7 +3,9 @@
 
 export default function Card(props) {
     return (
+    
     <div className="card">
+        {props.openSpots === 0 && <div className="card--badge">SOLD OUT</div>}
         <img src={props.mainImg} className="card--image" alt="profile image" />
         <div className="card--stats">
             <img src="../images/star.png" className="card--star" alt="star icon" />
