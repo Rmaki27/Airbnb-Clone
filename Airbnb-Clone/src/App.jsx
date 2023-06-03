@@ -22,7 +22,10 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <section className='cards-list'>
       {Cards}
+
+      </section>
     </>
   )
 }
