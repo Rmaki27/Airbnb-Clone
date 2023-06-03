@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .navbar {
@@ -17,4 +18,28 @@ body {
   height: 2em;
   margin-left: 2em;
   max-width: 100px;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero--container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.hero--photo-grid {
+  max-width: 400px;
+  /* margin-top: 3em; */
+  align-self: center;
+}
+
+.hero--header {
+  margin-bottom: 1em;
+}
+
+.hero--text {
+  margin-top: 0;
 }
