@@ -14,6 +14,7 @@ const Cards = data.map(card => {
     title = {card.title}
     price = {card.price} 
     openSpots = {card.openSpots} 
+    location = {card.location}
   />)
 })
 
